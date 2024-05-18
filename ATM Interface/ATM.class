@@ -1,0 +1,50 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.Scanner;
+
+class ATM {
+   private BankAccount account;
+
+   public ATM(BankAccount var1) {
+      this.account = var1;
+   }
+
+   public void start() {
+      Scanner var1 = new Scanner(System.in);
+
+      while(true) {
+         while(true) {
+            System.out.println("Please Enter Your choice: ");
+            System.out.println("1. Deposit");
+            System.out.println("2. Withdraw");
+            System.out.println("3. Check Balance");
+            System.out.println("4. Exit");
+            int var2 = var1.nextInt();
+            switch (var2) {
+               case 1:
+                  System.out.println("Enter amount to deposit:");
+                  double var3 = var1.nextDouble();
+                  this.account.deposit(var3);
+                  System.out.println("Deposit successful!");
+                  break;
+               case 2:
+                  System.out.println("Enter amount to withdraw:");
+                  double var5 = var1.nextDouble();
+                  if (this.account.withdraw(var5)) {
+                     System.out.println("Withdrawal successful!");
+                  } else {
+                     System.out.println("Insufficient balance!");
+                  }
+                  break;
+               case 3:
+                  System.out.println("Your balance is: " + this.account.checkBalance());
+                  break;
+               case 4:
+                  System.out.println("Thank you for using our ATM. Have a Great Day!");
+                  System.exit(0);
+               default:
+                  System.out.println("Invalid option. Please try again.");
+            }
+         }
+      }
+   }
+}
