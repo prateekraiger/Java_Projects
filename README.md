@@ -1,4 +1,4 @@
-# Codsoft Java Projects Repository
+# Java Projects Repository
 
 Welcome to the **Codsoft** repository! This is a collection of various Java projects, each designed to demonstrate different aspects of the Java programming language and its applications. Whether you're a beginner looking for examples to learn from, or an experienced developer seeking inspiration for your next project, you'll find something of interest here.
 
