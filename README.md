@@ -12,9 +12,7 @@ Here are some of the projects you'll find in this repository:
 
 3. **ATM Interface**: This project simulates an ATM (Automated Teller Machine), demonstrating how to create a simple user interface and handle transactions.
 
-4. **Currency Converter**: This application converts between different currencies. It shows how to handle APIs and work with real-time data in Java.
-
-5. **Student Management System**: This is a more complex application that manages student data. It's a great project if you're interested in how to design and structure larger applications.
+4. **Student Management System**: This is a more complex application that manages student data. It's a great project if you're interested in how to design and structure larger applications.
 
 
 ## Contributing
